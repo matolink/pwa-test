@@ -8,7 +8,7 @@ const withPWA = require('next-pwa')({
 })
 
 module.exports = withPWA({
-    output: 'export',
+    output: 'standalone',
     images: {
         unoptimized: true,
     },
